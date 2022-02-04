@@ -2,9 +2,13 @@ body {
     font-family: sans-serif;
     margin: 0;
     display: grid;
-    grid-template-columns: 15em auto 15em;
+    grid-template-columns: 1fr 7fr 1fr;
 }
-
+aside {
+    background-color: rgb(0, 255, 221);
+    display: flex;
+    justify-content: center;
+}
 header {
     font-weight: 900; 
     background-color: #071d3b;
@@ -16,15 +20,20 @@ header {
     grid-column-start: 1;
     grid-column-start: 1;
     grid-column-end: 4;
+    display: flex;
 }
-
+nav {
+    background-color: rgb(0, 140, 255);
+}
 footer {
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: rgba(0, 162, 255, 0.705);
+    display: flex;
+    justify-content: center;
 }
 
 .links {
-    
     margin-left: auto; 
     align-items: center;
 }
